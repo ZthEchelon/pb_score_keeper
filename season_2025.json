@@ -1,0 +1,30 @@
+{
+  "season_id": "winter_2025",
+  "weeks": [
+    {
+      "week_number": 1,
+      "date": "2025-10-12",
+      "status": "completed",
+      "groups": [
+        {
+          "group_id": "A",
+          "player_ids": ["uuid-001", "uuid-002", "uuid-003", "uuid-004"],
+          "matches": [
+            {
+              "match_id": "m_1",
+              "team_1": ["uuid-001", "uuid-002"],
+              "team_2": ["uuid-003", "uuid-004"],
+              "scores":  // Team 1: 11, Team 2: 9
+            },
+            {
+              "match_id": "m_2",
+              "team_1": ["uuid-001", "uuid-003"],
+              "team_2": ["uuid-002", "uuid-004"],
+              "scores": [null, null] // Not yet played
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
